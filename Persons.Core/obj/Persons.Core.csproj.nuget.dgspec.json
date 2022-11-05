@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/vmartinez/Source/CSharp/Persons/Persons.Core/Persons.Core.csproj": {}
+  },
+  "projects": {
+    "/home/vmartinez/Source/CSharp/Persons/Persons.Core/Persons.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vmartinez/Source/CSharp/Persons/Persons.Core/Persons.Core.csproj",
+        "projectName": "Persons.Core",
+        "projectPath": "/home/vmartinez/Source/CSharp/Persons/Persons.Core/Persons.Core.csproj",
+        "packagesPath": "/home/vmartinez/.nuget/packages/",
+        "outputPath": "/home/vmartinez/Source/CSharp/Persons/Persons.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vmartinez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

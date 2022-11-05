@@ -1,0 +1,15 @@
+/home/vmartinez/Source/CSharp/Persons/Persons.Repositories/bin/Debug/net6.0/Persons.Repositories.deps.json
+/home/vmartinez/Source/CSharp/Persons/Persons.Repositories/bin/Debug/net6.0/Persons.Repositories.dll
+/home/vmartinez/Source/CSharp/Persons/Persons.Repositories/bin/Debug/net6.0/Persons.Repositories.pdb
+/home/vmartinez/Source/CSharp/Persons/Persons.Repositories/bin/Debug/net6.0/Persons.Core.dll
+/home/vmartinez/Source/CSharp/Persons/Persons.Repositories/bin/Debug/net6.0/Persons.Core.pdb
+/home/vmartinez/Source/CSharp/Persons/Persons.Repositories/obj/Debug/net6.0/Persons.Repositories.csproj.AssemblyReference.cache
+/home/vmartinez/Source/CSharp/Persons/Persons.Repositories/obj/Debug/net6.0/Persons.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+/home/vmartinez/Source/CSharp/Persons/Persons.Repositories/obj/Debug/net6.0/Persons.Repositories.AssemblyInfoInputs.cache
+/home/vmartinez/Source/CSharp/Persons/Persons.Repositories/obj/Debug/net6.0/Persons.Repositories.AssemblyInfo.cs
+/home/vmartinez/Source/CSharp/Persons/Persons.Repositories/obj/Debug/net6.0/Persons.Repositories.csproj.CoreCompileInputs.cache
+/home/vmartinez/Source/CSharp/Persons/Persons.Repositories/obj/Debug/net6.0/Persons.Repositories.csproj.CopyComplete
+/home/vmartinez/Source/CSharp/Persons/Persons.Repositories/obj/Debug/net6.0/Persons.Repositories.dll
+/home/vmartinez/Source/CSharp/Persons/Persons.Repositories/obj/Debug/net6.0/refint/Persons.Repositories.dll
+/home/vmartinez/Source/CSharp/Persons/Persons.Repositories/obj/Debug/net6.0/Persons.Repositories.pdb
+/home/vmartinez/Source/CSharp/Persons/Persons.Repositories/obj/Debug/net6.0/ref/Persons.Repositories.dll
