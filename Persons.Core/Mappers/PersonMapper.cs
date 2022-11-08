@@ -11,6 +11,8 @@ namespace Persons.Mappers
         {
             CreateMap<AddressDtoIn, AddressEntity>().ReverseMap();
 
+            CreateMap<PhoneDto, PhoneEntity>().ReverseMap();
+
             CreateMap<PersonDtoIn, PersonEntity>();
             CreateMap<PersonEntity, PersonDto>();
 

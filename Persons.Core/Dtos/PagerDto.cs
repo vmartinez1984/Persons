@@ -15,5 +15,7 @@ namespace Persons.Core.Dtos
 
         [JsonIgnoreAttribute]
         public int TotalRecordsFiltered { get; set; }
+
+        public object List { get; set; }
     }
 }

@@ -19,6 +19,6 @@ namespace Persons.Core.Interfaces
     {
         Task<string> AddAsync(PersonDtoIn personDtoIn);
 
-        Task<List<PersonDto>> GetAsync(PagerDto search);
+        Task<PagerDto> GetAsync(PagerDto search);
     }
 }

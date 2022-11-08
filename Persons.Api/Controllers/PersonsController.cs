@@ -1,7 +1,4 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Persons.Api.Helpers;
 using Persons.Core.Dto;
 using Persons.Core.Dtos;
 using Persons.Core.Interfaces;
@@ -22,15 +19,14 @@ public class PersonsController : ControllerBase
 
     [HttpGet]
     [AuthorizeRoles(Rol.User, Rol.Admin)]
-    public async Task<List<PersonDto>> GetAsync([FromQuery]PagerDto search)
-    {
-        List<PersonDto> list;
+    public async Task<IActionResult> GetAsync([FromQuery]PagerDto pager)
+    {        
+        pager = await _unitOfWork.Person.GetAsync(pager);
+        this.HttpContext.Response.Headers.Add("total-records", pager.TotalRecords.ToString());
+        this.HttpContext.Response.Headers.Add("total-records-filtered", pager.TotalRecordsFiltered.ToString());
+        this.HttpContext.Response.Headers.Add("author", "Victor Martinez");
 
-        list = await _unitOfWork.Person.GetAsync(search);
-        this.HttpContext.Response.Headers.Add("totalRecords", search.TotalRecords.ToString());
-        this.HttpContext.Response.Headers.Add("totalRecordsFiltered", search.TotalRecordsFiltered.ToString());
-
-        return list;
+        return Ok(pager);
     }
 
     /// <summary>

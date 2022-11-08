@@ -25,7 +25,7 @@ namespace Persons.BusinessLayer
             return entity.Id;
         }
 
-        public async Task<List<PersonDto>> GetAsync(PagerDto pager)
+        public async Task<PagerDto> GetAsync(PagerDto pager)
         {
             PagerEntity pagerEntity;
             List<PersonDto> list;
@@ -35,8 +35,9 @@ namespace Persons.BusinessLayer
             entities = await _repository.Person.GetAsync(pagerEntity);
             list = _mapper.Map<List<PersonDto>>(entities);
             pager = _mapper.Map<PagerDto>(pagerEntity);
+            pager.List = list;
 
-            return list;
+            return pager;
         }
     }
 }
