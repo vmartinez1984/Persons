@@ -22,3 +22,15 @@
 /home/vmartinez/Source/CSharp/Persons/Persons.Core/obj/Debug/net6.0/refint/Persons.Core.dll
 /home/vmartinez/Source/CSharp/Persons/Persons.Core/obj/Debug/net6.0/Persons.Core.pdb
 /home/vmartinez/Source/CSharp/Persons/Persons.Core/obj/Debug/net6.0/ref/Persons.Core.dll
+C:\Users\vmartinez\Source\Repos\vmartinez1984\Persons\Persons.Core\bin\Debug\net6.0\Persons.Core.deps.json
+C:\Users\vmartinez\Source\Repos\vmartinez1984\Persons\Persons.Core\bin\Debug\net6.0\Persons.Core.dll
+C:\Users\vmartinez\Source\Repos\vmartinez1984\Persons\Persons.Core\bin\Debug\net6.0\Persons.Core.pdb
+C:\Users\vmartinez\Source\Repos\vmartinez1984\Persons\Persons.Core\obj\Debug\net6.0\Persons.Core.csproj.AssemblyReference.cache
+C:\Users\vmartinez\Source\Repos\vmartinez1984\Persons\Persons.Core\obj\Debug\net6.0\Persons.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vmartinez\Source\Repos\vmartinez1984\Persons\Persons.Core\obj\Debug\net6.0\Persons.Core.AssemblyInfoInputs.cache
+C:\Users\vmartinez\Source\Repos\vmartinez1984\Persons\Persons.Core\obj\Debug\net6.0\Persons.Core.AssemblyInfo.cs
+C:\Users\vmartinez\Source\Repos\vmartinez1984\Persons\Persons.Core\obj\Debug\net6.0\Persons.Core.csproj.CoreCompileInputs.cache
+C:\Users\vmartinez\Source\Repos\vmartinez1984\Persons\Persons.Core\obj\Debug\net6.0\Persons.Core.dll
+C:\Users\vmartinez\Source\Repos\vmartinez1984\Persons\Persons.Core\obj\Debug\net6.0\refint\Persons.Core.dll
+C:\Users\vmartinez\Source\Repos\vmartinez1984\Persons\Persons.Core\obj\Debug\net6.0\Persons.Core.pdb
+C:\Users\vmartinez\Source\Repos\vmartinez1984\Persons\Persons.Core\obj\Debug\net6.0\ref\Persons.Core.dll

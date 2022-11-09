@@ -1,33 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "/home/vmartinez/Source/CSharp/Persons/Persons.BusinessLayer/Persons.BusinessLayer.csproj": {}
+    "C:\\Users\\vmartinez\\Source\\Repos\\vmartinez1984\\Persons\\Persons.BusinessLayer\\Persons.BusinessLayer.csproj": {}
   },
   "projects": {
-    "/home/vmartinez/Source/CSharp/Persons/Persons.BusinessLayer/Persons.BusinessLayer.csproj": {
+    "C:\\Users\\vmartinez\\Source\\Repos\\vmartinez1984\\Persons\\Persons.BusinessLayer\\Persons.BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/vmartinez/Source/CSharp/Persons/Persons.BusinessLayer/Persons.BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\vmartinez\\Source\\Repos\\vmartinez1984\\Persons\\Persons.BusinessLayer\\Persons.BusinessLayer.csproj",
         "projectName": "Persons.BusinessLayer",
-        "projectPath": "/home/vmartinez/Source/CSharp/Persons/Persons.BusinessLayer/Persons.BusinessLayer.csproj",
-        "packagesPath": "/home/vmartinez/.nuget/packages/",
-        "outputPath": "/home/vmartinez/Source/CSharp/Persons/Persons.BusinessLayer/obj/",
+        "projectPath": "C:\\Users\\vmartinez\\Source\\Repos\\vmartinez1984\\Persons\\Persons.BusinessLayer\\Persons.BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\vmartinez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vmartinez\\Source\\Repos\\vmartinez1984\\Persons\\Persons.BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/vmartinez/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\vmartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/vmartinez/Source/CSharp/Persons/Persons.Core/Persons.Core.csproj": {
-                "projectPath": "/home/vmartinez/Source/CSharp/Persons/Persons.Core/Persons.Core.csproj"
+              "C:\\Users\\vmartinez\\Source\\Repos\\vmartinez1984\\Persons\\Persons.Core\\Persons.Core.csproj": {
+                "projectPath": "C:\\Users\\vmartinez\\Source\\Repos\\vmartinez1984\\Persons\\Persons.Core\\Persons.Core.csproj"
               }
             }
           }
@@ -63,26 +65,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/vmartinez/Source/CSharp/Persons/Persons.Core/Persons.Core.csproj": {
+    "C:\\Users\\vmartinez\\Source\\Repos\\vmartinez1984\\Persons\\Persons.Core\\Persons.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/vmartinez/Source/CSharp/Persons/Persons.Core/Persons.Core.csproj",
+        "projectUniqueName": "C:\\Users\\vmartinez\\Source\\Repos\\vmartinez1984\\Persons\\Persons.Core\\Persons.Core.csproj",
         "projectName": "Persons.Core",
-        "projectPath": "/home/vmartinez/Source/CSharp/Persons/Persons.Core/Persons.Core.csproj",
-        "packagesPath": "/home/vmartinez/.nuget/packages/",
-        "outputPath": "/home/vmartinez/Source/CSharp/Persons/Persons.Core/obj/",
+        "projectPath": "C:\\Users\\vmartinez\\Source\\Repos\\vmartinez1984\\Persons\\Persons.Core\\Persons.Core.csproj",
+        "packagesPath": "C:\\Users\\vmartinez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vmartinez\\Source\\Repos\\vmartinez1984\\Persons\\Persons.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/vmartinez/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\vmartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -105,6 +109,10 @@
               "target": "Package",
               "version": "[12.0.0, )"
             },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.16.1, )"
@@ -126,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

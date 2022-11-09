@@ -1,12 +1,9 @@
 using System.Text;
-using AutoMapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
-using Persons.Api;
 using Persons.Api.Helpers;
 using Persons.BusinessLayer;
-using Persons.Core.Interfaces;
-using Persons.Mappers;
+using Persons.Core.Extensors;
 using Persons.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,13 +12,7 @@ builder.Services.Configure<DbSettings>(builder.Configuration.GetSection("DbSetti
 builder.Services.AddScoped<TokenService>();
 builder.Services.AddRepository();
 builder.Services.AddBusinessLayer();
-//Mappers
-var mapperConfig = new MapperConfiguration(mapperConfig =>
-{
-    mapperConfig.AddProfile<PersonMapper>();
-});
-IMapper mapper = mapperConfig.CreateMapper();
-builder.Services.AddSingleton(mapper);
+builder.Services.AddMappers();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {

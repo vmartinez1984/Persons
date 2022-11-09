@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/vmartinez/Source/CSharp/Persons/Persons.Core/Persons.Core.csproj": {}
+    "C:\\Users\\vmartinez\\Source\\Repos\\vmartinez1984\\Persons\\Persons.Core\\Persons.Core.csproj": {}
   },
   "projects": {
-    "/home/vmartinez/Source/CSharp/Persons/Persons.Core/Persons.Core.csproj": {
+    "C:\\Users\\vmartinez\\Source\\Repos\\vmartinez1984\\Persons\\Persons.Core\\Persons.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/vmartinez/Source/CSharp/Persons/Persons.Core/Persons.Core.csproj",
+        "projectUniqueName": "C:\\Users\\vmartinez\\Source\\Repos\\vmartinez1984\\Persons\\Persons.Core\\Persons.Core.csproj",
         "projectName": "Persons.Core",
-        "projectPath": "/home/vmartinez/Source/CSharp/Persons/Persons.Core/Persons.Core.csproj",
-        "packagesPath": "/home/vmartinez/.nuget/packages/",
-        "outputPath": "/home/vmartinez/Source/CSharp/Persons/Persons.Core/obj/",
+        "projectPath": "C:\\Users\\vmartinez\\Source\\Repos\\vmartinez1984\\Persons\\Persons.Core\\Persons.Core.csproj",
+        "packagesPath": "C:\\Users\\vmartinez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vmartinez\\Source\\Repos\\vmartinez1984\\Persons\\Persons.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/vmartinez/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\vmartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,6 +44,10 @@
               "target": "Package",
               "version": "[12.0.0, )"
             },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.16.1, )"
@@ -63,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
