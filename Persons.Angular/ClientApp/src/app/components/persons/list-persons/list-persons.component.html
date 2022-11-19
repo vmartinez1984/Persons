@@ -1,1 +1,19 @@
-<p>list-persons works!</p>
+<h1 class="text-info">Personas</h1>
+
+<table id="table" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <td>Nombre</td>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <td>Nombre</td>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr *ngFor="let person of persons">
+            <td>{{person.name}}</td>
+        </tr>
+    </tbody>
+</table>

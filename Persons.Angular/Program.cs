@@ -1,3 +1,4 @@
+using Persons.Angular.Helpers;
 using Persons.BusinessLayer;
 using Persons.Core.Extensors;
 using Persons.Repositories;
@@ -7,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.Configure<DbSettings>(builder.Configuration.GetSection("DbSettings"));
 // Add services to the container.
-//builder.Services.AddScoped<TokenService>();
+builder.Services.AddScoped<TokenService>();
 builder.Services.AddRepository();
 builder.Services.AddBusinessLayer();
 builder.Services.AddMappers();
