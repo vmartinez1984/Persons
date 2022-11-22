@@ -7,7 +7,7 @@ using Persons.Core.Interfaces;
 namespace Persons.Angular.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+    //[ApiController]
     public class PersonsController : ControllerBase
     {
         private readonly ILogger<PersonsController> _logger;
@@ -46,7 +46,7 @@ namespace Persons.Angular.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(PersonDtoIn person)
+        public async Task<IActionResult> Post([FromBody] PersonDtoIn person)
         {
             string id;
 

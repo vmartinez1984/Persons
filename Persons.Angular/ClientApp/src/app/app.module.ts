@@ -11,6 +11,7 @@ import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { ListPersonsComponent } from './components/persons/list-persons/list-persons.component';
 import { LoginComponent } from './components/login/login.component';
+import { FormPersonComponent } from './components/persons/form-person/form-person.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { LoginComponent } from './components/login/login.component';
     NavMenuComponent,
     HomeComponent,
     CounterComponent,
+    FormPersonComponent,
     FetchDataComponent,
     ListPersonsComponent,
     LoginComponent
@@ -31,7 +33,9 @@ import { LoginComponent } from './components/login/login.component';
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
-      { path: 'persons', component: ListPersonsComponent}
+      { path: 'persons', component: ListPersonsComponent},
+      { path: 'persons/add', component: FormPersonComponent}, 
+      { path: 'persons/edit/:id', component: FormPersonComponent}
     ])
   ],
   providers: [],

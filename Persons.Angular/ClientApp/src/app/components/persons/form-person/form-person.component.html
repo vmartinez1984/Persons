@@ -1,0 +1,47 @@
+<h1 class="text-info">Agregar persona </h1>
+
+<form (submit)="submitForm()" [formGroup]="formGroup">
+    <input type="hidden" formControlName="id" />
+
+    <div class="form-group">
+        <label for="exampleInputEmail1" class="form-label mt-4">Nombre</label>
+        <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Nombre"
+            formControlName="name"
+            [class.is-invalid]="formGroup.controls.name.errors && formGroup.controls.name.touched" 
+            [class.is-valid]="!formGroup.controls.name.errors"
+            >
+            <div class="invalid-feedback">Anote un Nombre valido</div>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputEmail1" class="form-label mt-4">Apellidos</label>
+        <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Apellidos"
+            formControlName="lastName"
+            [class.is-invalid]="formGroup.controls.lastName.errors && formGroup.controls.lastName.touched" 
+            [class.is-valid]="!formGroup.controls.lastName.errors"
+            >
+            <div class="invalid-feedback">Anote apellidos validos</div>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputEmail1" class="form-label mt-4">Fecha de nacimiento</label>
+        <input type="date" class="form-control" aria-describedby="emailHelp" placeholder="Correo"
+            formControlName="birthday"
+            [class.is-invalid]="formGroup.controls.birthday.errors && formGroup.controls.birthday.touched" 
+            [class.is-valid]="!formGroup.controls.birthday.errors">
+            <div class="invalid-feedback">Anote una fecha valida</div>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputEmail1" class="form-label mt-4">Correo</label>
+        <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Correo"
+            formControlName="email"
+            [class.is-invalid]="formGroup.controls.email.errors && formGroup.controls.email.touched" 
+            [class.is-valid]="!formGroup.controls.email.errors">
+            <div class="invalid-feedback">Anote un correo valido</div>
+    </div>
+
+    <div class="form-group mt-4">
+        <button type="submit" class="btn btn-primary" [disabled]="isSaving">Guardar</button>
+    </div>
+</form>

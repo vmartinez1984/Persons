@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Persons.Core.Dtos
+﻿namespace Persons.Core.Dtos
 {
     public class DataTableDto
     {
@@ -14,13 +8,15 @@ namespace Persons.Core.Dtos
             {
                 int order;
 
-                order = Convert.ToInt32(Order[0]["column"]);
-                return this.Columns[order]["data"];
+                if (Order is null)
+                    order = 0;
+                else
+                    order = Convert.ToInt32(Order[0]["column"]);
+                return this.Columns is null ? string.Empty : this.Columns[order]["data"];
             }
         }
 
-
-        public string SortColumnDir { get { return this.Order[0]["dir"]; } }
+        public string SortColumnDir { get { return this.Order is null ? string.Empty : this.Order[0]["dir"]; } }
         public int Draw { get; set; }
         public int Length { get; set; } = 0;
 
@@ -44,7 +40,7 @@ namespace Persons.Core.Dtos
         {
             get
             {
-                return (Start / Length) + 1;
+                return Start == 0 && Length == 0 ? 1 : (Start / Length) + 1;
             }
         }
 
@@ -54,7 +50,7 @@ namespace Persons.Core.Dtos
         {
             get
             {
-                return this.Search["value"];
+                return this.Search is null? string.Empty: this.Search["value"];
             }
         }
     }

@@ -4,15 +4,14 @@
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Correo</label>
             <input type="email" formControlName="email" class="form-control"  
-             [class.is-valid]="formGroup.controls.email.valid && formGroup.controls.email.touched"
-             [class.is-invalid]="!formGroup.controls.email.valid && formGroup.controls.email.touched"
+            [class.is-invalid]="formGroup.controls.email.errors && formGroup.controls.email.touched" [class.is-valid]="!formGroup.controls.email.errors"
             >
         </div>
         <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Contraseña</label>
             <input type="password" formControlName="password" class="form-control" 
-            [class.is-valid]="formGroup.controls.email.valid && formGroup.controls.email.touched"
-            [class.is-invalid]="!formGroup.controls.email.valid && formGroup.controls.email.touched"
+            [class.is-invalid]="formGroup.controls.password.errors && formGroup.controls.password.touched" 
+            [class.is-valid]="!formGroup.controls.password.errors"
             />
         </div>
 

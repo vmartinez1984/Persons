@@ -1,4 +1,6 @@
-export class PersonDto{
-    name:string =''
-    lastName:string= ''
+export class PersonDto {
+  id: string = ''
+  name: string = ''
+  lastName: string = ''
+  email: string = ''
 }

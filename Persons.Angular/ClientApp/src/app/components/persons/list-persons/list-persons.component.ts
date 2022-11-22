@@ -13,7 +13,7 @@ export class ListPersonsComponent implements OnInit {
   persons: PersonDto[] = []
 
   constructor(private service: PersonService) {
-    this.getAll();
+    //this.getAll();
   }
 
   getAll() {

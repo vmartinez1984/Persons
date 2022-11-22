@@ -6,6 +6,10 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class LoginService {
+  logOut() {
+    localStorage.removeItem('user');
+    this.isLogin = false;
+  }
   public isLogin = false;
 
   login(userLogin: any): Observable<any> {
@@ -21,10 +25,13 @@ export class LoginService {
     let stringJson = localStorage.getItem('user')
     if (stringJson == null || stringJson == '')
       this.isLogin = false;
-    else
+    else {
       this.isLogin = true;
+      let json = JSON.parse(stringJson + '')
+      //json.dateExpiration >
 
-    let json = JSON.parse(stringJson + '')
+    }
+
     //console.log(json)
 
     return this.isLogin;
